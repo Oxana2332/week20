@@ -30,18 +30,23 @@ button {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
+        margin: 1%;
         }
 
         .hero-pic {
-            width: auto;
-            margin: 1%;
+            width: 30%;
+            margin-right: 5%;
         }
 
         .hero-info {
             grid-column: 1/3;
             grid-row: 1/3;
             text-align: center;
-            margin: 1%;
+        }
+        .hero-details {
+            font-size: 18px;
+            grid-column: 2/3;
+            grid-row: 2/3;
         }
 }
 
